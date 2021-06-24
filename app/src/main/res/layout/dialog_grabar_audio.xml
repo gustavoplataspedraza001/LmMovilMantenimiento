@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clOrigen"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clDialogoAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_dialog"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/txtTituloAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titulo_top2"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Grabadora de audio"
+            android:textAlignment="viewEnd"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/tvTituloAudio"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:tint="@color/white"
+            android:src="@drawable/ic_mic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ibGrabar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:backgroundTint="@color/rojoDrk"
+            android:src="@drawable/ic_mic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ibDetener"
+            app:layout_constraintTop_toBottomOf="@id/txtTituloAudio"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ibDetener"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:backgroundTint="@color/rojoDrk"
+            android:src="@drawable/ic_stop"
+            app:tint="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintStart_toEndOf="@id/ibGrabar"
+            app:layout_constraintEnd_toStartOf="@id/ibReproducir"
+            app:layout_constraintTop_toBottomOf="@id/txtTituloAudio"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ibReproducir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:backgroundTint="@color/rojoDrk"
+            android:src="@drawable/ic_play"
+            android:tint="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ibDetener"
+            app:layout_constraintTop_toBottomOf="@id/txtTituloAudio"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnCancelarAudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbtn"
+        android:text="Cancelar"
+        android:textColor="@color/white"
+        android:elevation="10dp"
+        android:drawableStart="@drawable/ic_clear"
+        android:paddingStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnAceptarAudio"
+        app:layout_constraintBottom_toBottomOf="@id/clDialogoAudio"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/clDialogoAudio" />
+    <Button
+        android:id="@+id/btnAceptarAudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbtn_terminadr"
+        android:text="Guardar"
+        android:textColor="@color/white"
+        android:elevation="10dp"
+        android:drawableStart="@drawable/ic_check"
+        android:paddingStart="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnCancelarAudio"
+        app:layout_constraintBottom_toBottomOf="@id/clDialogoAudio"
+        app:layout_constraintTop_toBottomOf="@id/clDialogoAudio" />
+</androidx.constraintlayout.widget.ConstraintLayout>

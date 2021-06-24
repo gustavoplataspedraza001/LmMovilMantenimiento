@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_grupal_preventivos"
+        android:icon="@drawable/ic_grupal"
+        android:title="Todas las tareas"/>
+    <item
+        android:id="@+id/nav_propias_preventivos"
+        android:icon="@drawable/ic_propios"
+        android:title="Mis tareas"/>
+</menu>

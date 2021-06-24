@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67904752071",
+    "project_id": "lmmovilmantenimiento",
+    "storage_bucket": "lmmovilmantenimiento.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67904752071:android:390c10d208f326f41ff1e2",
+        "android_client_info": {
+          "package_name": "com.example.lmmovilmantenimiento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67904752071-bb431n1bilrdd9vb2jblke5kpgok5qvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBGDCg2HdIt860gA5QOWJnCn34BYQ780k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67904752071-bb431n1bilrdd9vb2jblke5kpgok5qvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

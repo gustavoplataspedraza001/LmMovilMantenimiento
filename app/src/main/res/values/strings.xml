@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LmMovilMantenimiento</string>
+    <string name="dar_de_alta_informaci_n"><u>Darse de alta*?*</u></string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="descripci_n">* Descripción</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preguntaTipo">¿Generar recordatorio?</string>
+    <string name="avisoTipo">Al agrear el recordatorio, esta tarea se le asignará.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#770808</color>
+    <color name="pendiente">#FF0000</color>
+    <color name="enproceso">#0016A8</color>
+    <color name="programada">#007488</color>
+    <color name="enrevision">#FFFB00</color>
+    <color name="terminado">#2B8C02</color>
+    <color name="rojoDrk">#500202</color>
+    <color name="pistaColor">#EDEDED</color>
+    <color name="naranja">#CC4B11</color>
+    <color name="naranjadrk">#983E04</color>
+    <color name="verddrk">#295518</color>
+</resources>
